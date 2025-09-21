@@ -20,17 +20,15 @@ const menuItens = [
         dropdown: true
     },
     {
-        url: "/resources",
-        title: "Resources",
+        url: "/news",
+        title: "News",
         dropdown: true
     },
     {
-        url: "/pricing",
-        title: "Pricing",
+        url: "/aboutus",
+        title: "About Us",
         dropdown: false
     }
-
-
 ]
 
 export function Header() {
@@ -42,10 +40,10 @@ export function Header() {
 
                 <div className="flex items-center gap-10">
                     <Image
-                        src={"/logo-biomob.svg"}
-                        width={40}
-                        height={40}
-                        alt="Logo-Biomob"
+                        src={"/logo.png"}
+                        width={46}
+                        height={46}
+                        alt="Logo-Fragantica"
                     />
 
                     <nav className="flex items-center gap-8">
@@ -62,9 +60,9 @@ export function Header() {
                 </div>
                 <div>
                     <Image
-                        src="/AVATAR.svg"
-                        width={46}
-                        height={46}
+                        src="/avataruser.png"
+                        width={32}
+                        height={32}
                         alt="Avatar"
                     />
                 </div>

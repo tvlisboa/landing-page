@@ -12,16 +12,17 @@ export function SectionHero() {
 
                 <div className="text-center">
                     <TagFeature />
-                    <h1 className="text-6xl font-semibold text-gray-900 mt-4 mb-6">Transformando SONHOS em FANTASIAS</h1>
-                    <p className="text-xl/6 text-gray-600 max-w-3xl mx-auto mb-12">Somos de Petrópolis - RJ, mas enviamos com carinho para todo o Brasil.</p>
+                    <h1 className="text-6xl font-semibold text-gray-900 mt-4 mb-6">Gucci Gorgeous Orchid</h1>
+
+                    <p className="text-xl/6 text-gray-600 max-w-3xl mx-auto mb-12">Elena’s review of Gucci Gorgeous Orchid finds the same gelato quality I do but, for her, the ozonics play a “mechanical role, spreading the molecules around the corners.</p>
 
                     <AreaCtas />
                 </div>
                 <Image
-                    src="/ANIME.svg"
-                    width={1220}
-                    height={480}
-                    alt="Banner desenho"
+                    src="/LOGOGRANDEGUCCI.jpg"
+                    width={1260}
+                    height={440}
+                    alt="Gucci Flora Parfum Image"
                 />
                 <hr className="border-gray-200" />
 
