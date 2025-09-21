@@ -60,7 +60,7 @@ export function Header() {
                 </div>
                 <div>
                     <Image
-                        src="/avataruser.png"
+                        src="/usericon.jpg"
                         width={32}
                         height={32}
                         alt="Avatar"

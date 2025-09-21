@@ -3,6 +3,10 @@ import { Header } from "./components/header";
 import { SectionHero } from "./components/SectionHero";
 import { SectionCompanies } from "./components/SectionCompanies";
 import { SectionFeatures } from "./components/SextionFeatures";
+import { SectionDepoiments } from "./components/SectionDepoiments";
+import { SectionAnalitycs } from "./components/SectionAnalitycs";
+import { SectionQuestion } from "./components/SectionQuestions";
+import { Question } from "./components/SectionQuestions/Question";
 
 export default function Home() {
   return (
@@ -12,6 +16,9 @@ export default function Home() {
       <SectionHero />
       <SectionCompanies />
       <SectionFeatures />
+      <SectionDepoiments />
+      <SectionAnalitycs />
+      <SectionQuestion />
     </>
 
   );
